@@ -1,0 +1,272 @@
+##########################-VerifyVPA-#####################################
+Api - https://merchantuat.timepayonline.com/evok/cm/v2/verifyVPA
+
+Raw Request{"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY00012278","upiId":"rocetpy.pay@cosb","terminalId":"ROCET-8239","sid":"ROCET-8239"}
+
+String is ROCET8239apiROCETPAY00012278rocetpy.pay@cosbROCET-8239ROCET-8239
+
+Checksum is f041ea1daa00dae6ced85199c20440e612d343053e2915509e5c0424d28b81ac
+
+Final string to encrypt is {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY00012278","upiId":"rocetpy.pay@cosb","terminalId":"ROCET-8239","sid":"ROCET-8239","checksum":"f041ea1daa00dae6ced85199c20440e612d343053e2915509e5c0424d28b81ac"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzG/7e1lfdn3QFDdWlg9+UvlAaIOObuIvyNsbM79VTiebzT99GxO4PZSiTcN5Cftcv5HG/1tiCxjaKoKXb2COL31fVkbPt0GGVFbSPt7vwjGsE+CeemZKiyK8erTynEema451ZZLf5AhA/yXREYs+owA2JDZxWZazH9ItWx9rm7AQmO2Mc4EdrPjwkA0oHEjULxR85SKG4UuLLJFdXYEAi2A8qmiSLtNaA7rlDmkCY2zat8eptrnn08Zjob/eFtsYoEFnXSZoSMMhlLuGgxU8os8
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY00012278","upiId":"rocetpy.pay@cosb","terminalId":"ROCET-8239","sid":"ROCET-8239","checksum":"f041ea1daa00dae6ced85199c20440e612d343053e2915509e5c0424d28b81ac"}
+
+Final Encrypted response:-
+KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M1AvnanfGDK9j/HK0LcZjJq3WtJzEyyXOf5ZC6yYdKUIvQI79GLkAnBr0Jv+xyZcB+hE6Je7zdbi7t9sFniB26JdtANmg9amQUjYqcb2vZeE3l1Dh+f93QRS7+vbe3D46eFDwgcrq0U/HiI/vAjCCS+pPzFyeJ/mRmscbMufz4n83WuxC0MnMVLY4rYyUjTQxUK+HITzjiqI5jIGY1kvZPErpknCOwB/0KOXzvppFGXRvTTiDptOjpnwidPLf3kxe4P8gdDa4U0kK1Yx2hq7jfSJ+mSLq8D6R/sVMZ4McTmHIv0IaufoMNLig9N+YQJbsR2xAY6N/Ys3FprmrSU3daWdWWVEvOz6qvaa4y4zqDOyWSPdg26e0Bt2M/8mc5G/+VwU53+dlybZeYaaBa2uZR7LiH9uUu2fabKQdB8S9jlSRHmiRr7XESxkIh1JDPL+Tw==
+
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"ROCETPAY00012278","upiId":"rocetpy.pay@cosb","checksum":"b6bd14540acb59ea4f6e41e1711460d5d639d46ef8ed2d0b606e2962d41418da","status":"SUCCESS","txnType":"VALADD","sid":"ROCET-8239","data":[{"customerName":"Rocetpay Technology Private Limited","respCode":"0","respMessge":"SUCCESS"}],"transactionList":[]}
+
+
+
+##########################-transfer-#####################################
+https://merchantuat.timepayonline.com/evok/cm/v2/transfer
+
+For Success Transaction-
+######################
+
+Raw Request{"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY8239242","upiId":"8180868163@cosb","terminalId":"ROCET-8239","amount":"105.00","sid":"ROCET-8239"}
+
+String is ROCET8239apiROCETPAY82392428180868163@cosbROCET-8239105.00ROCET-8239
+
+Checksum is 8020f2fdff59c93bae6e031939841592813bb9a3efa3e16197367f2b38d89c32
+
+Final string to encrypt is 
+{"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY8239242","upiId":"8180868163@cosb","terminalId":"ROCET-8239","amount":"105.00","sid":"ROCET-8239","checksum":"8020f2fdff59c93bae6e031939841592813bb9a3efa3e16197367f2b38d89c32"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzG/7e1lfdn3QFDdWlg9+UvlAaIOObuIvyNsbM79VTiebzxvK2Wxmt8GrH+TFM2mtMevh8UzyDo9/ss8C6K81XrWqnb6Nzs3iXfI5A9wmJoA9nlrMfKaIdOzU+A+ChA+HkCv2BglpwP6AUAlfTGHS0tkOdWWS3+QIQP8l0RGLPqMANiQ2cVmWsx/SLVsfa5uwEK0EnJ8yWpHQ9QBUu1aOudQSvit/gsJMoiyRqF5GV3wTmP4bjRzyIYrYCX29ppXF0mmbupbb3SJsH6l39vluzkWBZ10maEjDIZS7hoMVPKLPA==
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY8239242","upiId":"8180868163@cosb","terminalId":"ROCET-8239","amount":"105.00","sid":"ROCET-8239","checksum":"8020f2fdff59c93bae6e031939841592813bb9a3efa3e16197367f2b38d89c32"}
+
+ encrypted response-
+ KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M1AvnanfGDK9j/HK0LcZjJoSiCH7ezfeyvOD6JHBmX1LvJYWYI/yBBY8xQBfbORSFV4refkh/BfxzXhwbZZXBPKv2BglpwP6AUAlfTGHS0tkGNAtQ9W7fBBtNWphp3aaiWxuxmYTGcm04f/pvoO4lpzwxpAuLRLFCAq8MkZOnGY+r3s99nuwPcghELkLmnjdT/7lQGjrNQN/0VQS/QsPJdhDcWSIla4TXAYouN5nkmRj1qULov5Rxm+/JfMt2+v5HdOz4zByC+F0EPrKmCZPdPUADST7mX9n+9lQybVgDSAcEaBQ+AqZfmltPLhTIyj63qVzGbgLsBcTvK++YlIpZp8Ta+/RzwEUifvC519JXM5gRuiFsiw+KThUgFNWPOBhiwhbGhlKWMTym+wTZkcEOcCHfrUiM/KdeUb7Iip7DvVk
+ 
+ 
+ decrypted it -
+{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"ROCETPAY8239242","upiId":"8180868163@cosb","amount":"105.00","status":"SUCCESS","checksum":"584cbdc0c7cf97c69face7bf4ef3a635b04a53a336c672479f43378cee60dc11","data":[{"respCode":"0","respMessge":"SUCCESS","upiTxnId":"COB9964187F1AE54B9BB2E3567B6915F7AA","txnTime":"Tue Nov 21 14:43:30 IST 2023"}]}
+
+
+Callback response encrypted:-
+{
+  "message": "Bk4YFZ4Awxk+ML9H38544ZE9K29ein515NZmFwtxvLupL4ULd0FVsiCPwXrwCQp7A2iHo9V78jQBpzmGqAtdXs8tUWeeMzYN6up6F9Xk3UdNcRv1ATxyeNYNX/lkTxpQqKoVYl2p7RHHxGUEERd5eEtXQKBQqNPDPm+uuMLDuZI8oktpgoz9McrGG6V5dnddTSrLDGzUXefpnn0jgsUJT8ZgxrFhPPkgZ0i1IKo+A3PObrrr9GhCJe3ptl7nApnMxB3SvgNIBH3+asMBR2ynY+IsJBZC/4faZ7K4mqN+pLQxlh45yQzE2AeFMxVKcn/sBj9yeOfPs0iXgr+52znpfnnn7WTHKpMeT7JZ88TjHVPSKR/FiZ2z6NcVi7vujaLTnUoUpTdmkv42lVmHQu5iT6XovM2i5vQeGIIX/e0NJxdIXROKe2CySzFGOGqS68vy5Hiw3NhqO3e0N+E03a2XVJNeuiTSHsqWeGlvXdlZt0Jq7u/L39ZkVOZ0AeIRSMGMIHOkyezHVfV9hEOoG3mWOO1wRcXc+c02IWcBDDQdSEHpwz5q+FXAfUCw2bUBJi+4KnnKH0PmeMskKGR15TZ8uQq5k8xgdbmQpPwM8nJrGMuPZjEi6bUm3nFw6Qb901sDRz4gcTCH3wtjSBFVW7LMlA=="
+}
+
+Decrypted Callback response:-
+decrpt response {"extTransactionId":"ROCETPAY8239242","data":[{"amount":"105.00","mcc":"0000","customerName":null,"respMessge":"SUCCESS","custRefNo":"332514430001","respCode":"0","upiTxnId":"COB9964187F1AE54B9BB2E3567B6915F7AA","requestTime":"2023-11-21 14:43:36.0","txnTime":"Tue Nov 21 14:47:10 IST 2023","terminalId":"ROCET-8239","upiId":"8180868163@cosb","payeeVpa":"rocetpy.pay@cosb"}],"channel":"api","source":"ROCET8239","checksum":"","status":"SUCCESS","merchant":["roce"]}
+
+
+
+For failed transaction-
+########################
+
+
+Raw Request{"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY8239200042","upiId":"8180868163@cosb","terminalId":"ROCET-8239","amount":"105.00","sid":"ROCET-8239"}
+
+String is ROCET8239apiROCETPAY82392000428180868163@cosbROCET-8239105.00ROCET-8239
+
+Checksum is 9a986fb1d441041d0f4e58c21fb94b303bbbe30600c60f8f13f3ebb21220cbe1
+
+Final string to encrypt is {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY8239200042","upiId":"8180868163@cosb","terminalId":"ROCET-8239","amount":"105.00","sid":"ROCET-8239","checksum":"9a986fb1d441041d0f4e58c21fb94b303bbbe30600c60f8f13f3ebb21220cbe1"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzG/7e1lfdn3QFDdWlg9+UvlAaIOObuIvyNsbM79VTiebylQEs7EZd3AECW+aCkhqvyCOHmP5MhR4TmQ8kKa2xZ7gFO5RaaX0FiR4/d6i4cStKCA9I0hiTQvGJpc9bKClteAbA9p2yCT/ZEhTBzIzHa6VD3VNlY/GTQad1eLtghQZVJDbTrES4KGRZX1NkyHnIDbjpUDotgcC0K7Y/uKSi6EFkzpBne+4fNikMQN69gSLTadfHMxNBdnmAB1OPziYtvgrEQqdZ1e0w6X4/FZt9+sla6NYbm6YGc/FKHAMu6gjA==
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY8239200042","upiId":"8180868163@cosb","terminalId":"ROCET-8239","amount":"105.00","sid":"ROCET-8239","checksum":"9a986fb1d441041d0f4e58c21fb94b303bbbe30600c60f8f13f3ebb21220cbe1"}
+
+Final resonse encrypted-
+KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M1AvnanfGDK9j/HK0LcZjJoSiCH7ezfeyvOD6JHBmX1LfkSoyxjbQMyjC1SSVXQIMxiwwUr1gU44MCMiFz3b+yaAbA9p2yCT/ZEhTBzIzHa6nfKzPqcVkPoEW+WD/mhYhdkrN/QPsIX73tiX/1ptYHGIZnwys9QaZAUXt8nGEnlhi6i1scLvnlP215HCzSkxu5t9JCyzI+7hCePpYfiTR7vL/7Y3ftm6iOqYe5vot6e5hqSe4nQoZYdqB5EmJ1op405nAKQBXe4j/4VoDwyYsyHgx24cqEan0QJBICeVAcpXJW1zzFk/7M+OYyW4S94rlJ2d4SZV4eUJo3UPhEAUuo6N141h48otBLnHQOC9tqf/90bNqHbINR6fin86DhKsl9zXyhp88yMLbVyyycJJkrOuLZoOP3uFUaY72V+a1pAVoBz7SizW4p9Uwnvr0aRcAg==
+
+Decrypted- 
+{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"ROCETPAY8239200042","upiId":"8180868163@cosb","amount":"105.00","status":"SUCCESS","checksum":"584cbdc0c7cf97c69face7bf4ef3a635b04a53a336c672479f43378cee60dc11","data":[{"respCode":"0","respMessge":"SUCCESS","upiTxnId":"COB6DC50765ABB9432588AF6698ED328800","txnTime":"Tue Nov 21 14:53:35 IST 2023"}]}
+
+Callback response encrypted:-
+{
+  "message": "cotn3WXla2H+arutQbhcFcL+y850pLUo3i3UjQvQZfKPivZgnHPBVaYZRJrl5euUbxE48LZSuCSkMgP+LOuiiGVTwmFCf8lQquNBca07TmMkQWhfANUmxFIxDJbo082uCVoZ8cVHGeOAKobYbpouIURbwLT7qlwIkJhDCsTWgl2x87A35OkeyUHJKR1X/mGHG14P5qG2+G5tLGCWE+4xlieQSnNloT4PI1e8N2S6qcNm1+Ke4MuCPdzVuet9FhEbZrtekEdfeZLBT0Z2FCqskWl6p5eFqImWSH0adHlKrfiDC5TLm32hw9/U3WLt1ijmJiFsoWmRCGJRI2vSeNl11WrqiTe5icWj/E7qBBE8VO/R2xLA+xpoa3WqLam0gtd5POi6/2PEDhY+qiiQon9sqCWdFKr2a0roGBVmwp6KKjiDO5HDhaWgJ7RAfWrn4TsjQ5a1FEZrIVC2MggaCHFMVcH7qhjkquW+4Tcd+fN1062WevAPjnOQm6rSbwuwFypH/m2Thu8Mg6tFjcJPS8lspjqDNBmdg4aparcKRXS9OaeXDCsJWtckJ23BiZ5Vm0SfQz1H8zUM6HniT7OFO0J/wUL/SBdVbD/YGE1VOABMEzUYpfbEDQaHVWkegctsDEbdRuzpRlu1O1Ad+M0+p2HBgQ=="
+}
+
+
+Decrypted Callback response:-
+decrpt response {"extTransactionId":"ROCETPAY8239200042","data":[{"amount":"105.00","mcc":"0000","customerName":null,"respMessge":"FAIL","custRefNo":"332514530002","respCode":"U18","upiTxnId":"COB6DC50765ABB9432588AF6698ED328800","requestTime":"2023-11-21 14:53:36.0","txnTime":"Tue Nov 21 14:53:41 IST 2023","terminalId":"ROCET-8239","upiId":"8180868163@cosb","payeeVpa":"rocetpy.pay@cosb"}],"channel":"api","source":"ROCET8239","checksum":"","status":"SUCCESS","merchant":["roce"]}
+
+
+
+##########################-Status-#####################################
+https://merchantuat.timepayonline.com/evok/cm/v2/status
+
+Raw Request{"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY8239200042","terminalId":"ROCET-8239"}
+
+String is ROCET8239apiROCET-8239ROCETPAY8239200042
+
+Checksum is 941188a878cfbc358864f84ef43e7f11bfc8ee2edf943a766a92f1cb8dd4c6c5
+
+Final string to encrypt is {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY8239200042","terminalId":"ROCET-8239","checksum":"941188a878cfbc358864f84ef43e7f11bfc8ee2edf943a766a92f1cb8dd4c6c5"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzG/7e1lfdn3QFDdWlg9+UvlAaIOObuIvyNsbM79VTieb5cSyVjfg9Q2RG3YmV3Y7saZJswg63WMljxxtBYkwPcc/Q8VMXuKHyDLI1phnEydlzzDeTtFFA7nOmADG7y2zK5pYuX+RIujtbhEwGIMeAryDGw7jSt35+kU+EXlMuKO6CptZhwW3GvSsAn4JWYDfgWQos93Tlv0bx8FKYLt51pS
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY8239200042","terminalId":"ROCET-8239","checksum":"941188a878cfbc358864f84ef43e7f11bfc8ee2edf943a766a92f1cb8dd4c6c5"}
+
+
+Encrypted Response-
+KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M1AvnanfGDK9j/HK0LcZjJoSiCH7ezfeyvOD6JHBmX1LX1Lc5DlHzatfMxvsJB0Y/4kKZ/rNSeNUIfESWhzo3iMOyvuH6RAT8Ys5dI6FAFj3Jx5SXT5i3QzxrozQHxzJokLtIVWgWK7vNEsDQ0K7bwLlz+aw5AKlWa90zuv8g8XY9r4KVT3bFYW4S5n80FKzhyTWdO4LtLr9Wd41NGa2DVWAdTbF1t8x1Hm8orU4x2UkrBHNbRRYourksTYXYdIBK5Nx6kyB50Ls5/eC9+IvdKzcZchZHXSUhH+BjS74Lw+QPzYPUZEvI/3fox2nM9osoGCHq23xrJnlLMo0gtUysW+KRJHDTm4HSlAZpUMiJHxk8WZHzB+KP2OBcC83MCuixCzFi1HJBR6NOxYIaxDTL20VlDgklA0Yk5ahr3qvFIYQXit5+SH8F/HNeHBtllcE8qx6nH3nAQswI35mUeIyhNPtzaHe2m04fsFQDi1zoFtpASrbmNOvgQEALnuThSe3DrOdT/0NzurMlxgir3TXxC4=
+
+Decrypted it -
+{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"ROCETPAY8239200042","checksum":"0f08d0f07c8063e9b615b85a193e8ab647ac8fd46d05168b7038fdbf46f21bf6","status":"SUCCESS","txnType":"TXNSTATUS","data":[{"respCode":"U18","respMessge":"FAILURE","upiTxnId":"COB6DC50765ABB9432588AF6698ED328800","txnTime":"2023-11-21 14:53:41.0","amount":"105.00","upiId":"8180868163@cosb","custRefNo":"332514530002"}],"transactionList":[]}
+
+##########################-Report-Api-#####################################
+https://merchantuat.timepayonline.com/evok/cm/v2/report
+
+Raw Request{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","startDate":"2023-11-08 00:00:00","endDate":"2023-11-21 23:59:59","pageNo":"0","pageSize":"20"}
+
+String is ROCET8239apiROCET-82392023-11-08 00:00:002023-11-21 23:59:59020
+
+Checksum is 65ba83b533718933853fb6a8e6422597036af13e18bc669a3dc9e00e47c6f6c8
+
+Final string to encrypt is {"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","startDate":"2023-11-08 00:00:00","endDate":"2023-11-21 23:59:59","pageNo":"0","pageSize":"20","checksum":"65ba83b533718933853fb6a8e6422597036af13e18bc669a3dc9e00e47c6f6c8"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M2NiM7fguUNNK/OsRIS5n42+54kJBPLKy9E9Fnv0mmMBVncUV0/ygBZnumRiNBY+28xL+2F3kLeu1pzd0zDfc+BJ0y/yeVBh3Pu4EZdHN62eOCGXkhBWpp9zCMkaa4M+Cq1KuZOZyT9197+xYfqEZhVZfEAAA3xHP/y+vw9/Cb4VGyQ7hUUowCpfqvmLf2LmKTwby33eSGLXzZClZwRez21J73YR+54PgezPIevx6eh7
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","startDate":"2023-11-08 00:00:00","endDate":"2023-11-21 23:59:59","pageNo":"0","pageSize":"20","checksum":"65ba83b533718933853fb6a8e6422597036af13e18bc669a3dc9e00e47c6f6c8"}
+
+Encrypted Response-
+KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M27lke63NzP/774uod2ddLt5ojfeQ4UgZFXFJ7b1Qj+iKR9ORYK+xHDOhXYU1yfC22MQFRBFcdGKXl4lI2TKjgw7kebnjTYY9MfHJ21QEU/Ii+0ZAPlgVn6rW+ieZ1v56BcnkdkXKaPse6dtb7dJFnmvacgV7NdgnpKGv1UnVLMIrdpWsUz8nougVryfe8q8bnMmy3K7KdsUCywI3F7q6Y7EdYtogK5naCOzI1jlzKSJnpwWjDC+BLYHqTAvriukQtyN3oocKd9QCslbTmK2eQfbUTjedzJPtvRmjoF1Xi6l9S6kUUrEk+pba1zMj5pAnxHrg7ch0KBaLV7zUWxViPQXJx6CwsjweJmuICCtQKs4+6apgDp9FuEmsJwxSgGL8qO6YSLROUMZmyiduHQCzTLb5PUnBX2RR+ZP5rPFIhwUgRbkybzTTSsgEZ2r72lcY9/Ap9KaDuvQ6aEy/0por56yhCqcZH8Q/xXe4D81ybIsn9HLivWMz5qRRlbkrJ8v+4I4eY/kyFHhOZDyQprbFnshIDenWrm6peBlC6zRVS9rs1Tz3jWpuOjsKNKnraHdHagD2NzdhBHCQ9PInXAVGgPtyFvJFPC06jH2qE4P4shCmGr4QmK9Cl4a7I7xcOYNjUheTXcItQ+ApnbTW8Y0Xjb5h0iNbk5RBLculVbxsHwz1HtJYN4KPomn+ScGvtM/IF+KBJvXIJvhoOODyJ0yKalDqSZcZteDV/qi/Crjel/QhTmF73IlNQbP0DcbCWLatVJiGpRa1Oy8rCaIHjzF8P+klVar6eQ272+/Y0uj/MlalaLxBD3gNhsOtJAoXq9s+P+l6aGN/UBKuCV6b/JW65cPzp18KqiXJhhzpBsetf0pk7ogYdryCjFsXYjBH1QGLaDLpMNnLEXXgTscxYQ6nkMgKINvZXsnGc3RKZqPMNLWT5g4Uye6mOzkZiFBVWaPiNkrrPdqIhmafhgoCqr4H44dOVIfZASQ9lXyrNNPKRSOQGuCGy5NHbCjzWUxi/WLefeRMMRWRltaXGcf2AaYRH1yqYt2GWVowFAb5xBYDNS6fjEVA1Fqf8f/3DvvBztk0XyDABYUJ7h2oQUke3MaCsr/JZN+Gab6tMvcRr95GqCJ75ieuvgT1WXqzGXsuJ6v1/mElf3qIXy5NJm1CufJDPOsEc1tFFii6uSxNhdh0gErk3HqTIHnQuzn94L34i90rEXTEdtCsFApAKd+sA+Nk2a7eRkeNzWjRhK2136z9i6VLUGpvzJ8iyIeP4p8L9K5oIpEkcNObgdKUBmlQyIkfGSyLkEUOflOAd+9dhkfYuyLLMWLUckFHo07FghrENMvbRWUOCSUDRiTlqGveq8UhhBeK3n5IfwX8c14cG2WVwTycPLrMsTgB6IIcik0poljulNH+YEglS15UZHqAdB4Ry7mP8F4025wOXBI//qCazuRlQuPC2r0enZW+LNZMmG6jiI/ojxJB6q34X9BJSYqUuYuMBqBvv+CqNlmNJRzPVsVWfol8AjyIWS4MDdGSHjt/BxezFIWNMUZ09JGfm4mEwGMRTmZY7hFriEwRjJdElBR9a0lHzP1embsKI9vtCUooQ==
+
+
+Decrypted it -
+{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","checksum":"ba35c489fc9450e3158db611af7412e635100efdb1f18551036608186f3284d1","status":"SUCCESS","txnType":"TXNREPORT","startDate":"2023-11-08 00:00:00","endDate":"2023-11-21 23:59:59","pageSize":"20","pageNo":"0","data":[{"customerName":"","respCode":"U18","respMessge":"FAILURE","upiTxnId":"COB6DC50765ABB9432588AF6698ED328800","txnTime":"2023-11-21 14:53:41.0","amount":"105.00","upiId":"8180868163@cosb","extTransactionId":"ROCETPAY8239200042","requestTime":"2023-11-21 14:53:36.0","terminalId":"ROCET-8239","custRefNo":"332514530002"},{"customerName":"","respCode":"0","respMessge":"SUCCESS","upiTxnId":"COB9964187F1AE54B9BB2E3567B6915F7AA","txnTime":"2023-11-21 14:47:10.0","amount":"105.00","upiId":"8180868163@cosb","extTransactionId":"ROCETPAY8239242","requestTime":"2023-11-21 14:43:36.0","terminalId":"ROCET-8239","custRefNo":"332514430001"},{"customerName":"","respCode":"U18","respMessge":"FAILURE","upiTxnId":"COBAFC1621F65884A7680C09C399D71DEF9","txnTime":"2023-11-21 14:39:51.0","amount":"105.00","upiId":"8180868163@cosb","extTransactionId":"ROCETPAY823922","requestTime":"2023-11-21 14:39:46.0","terminalId":"ROCET-8239","custRefNo":"332514399998"}],"transactionList":[]}
+
+##########################-dqr-Api-#####################################
+
+https://merchantuat.timepayonline.com/evok/qr/v1/dqr
+
+Raw Request{"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY93787","sid":"ROCET-8239","terminalId":"ROCET-8239","amount":"222.00","type":"D"}
+
+String is ROCET8239apiROCETPAY93787ROCET-8239ROCET-8239222.00D
+
+Checksum is 5fb332f5c9e4797f971aee9d6bb8b5423d7cdb8192d54846b03f569a44b628b0
+
+Final string to encrypt is {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY93787","sid":"ROCET-8239","terminalId":"ROCET-8239","amount":"222.00","type":"D","checksum":"5fb332f5c9e4797f971aee9d6bb8b5423d7cdb8192d54846b03f569a44b628b0"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzG/7e1lfdn3QFDdWlg9+UvlAaIOObuIvyNsbM79VTieb1Ft8P9hmIFLCGkJO9LzoEpJPzYeUr/RnNkjDsxa1RWdHIZiMq5gg8TFXVJPGjKnaN9ExTsykYNh6M6WVbwCZPYOIfBKmyM73S1fhoKY37A9D094W8gXJd6L357r3kT5QUCHMrJ1rQymGsUvCh+xJZdgz8THxRFMqlYBWA6wUfNKnPThUvEAiPKo5/p+dQMbJoO28JV8AzzLBFyCM2IlsViznU/9Dc7qzJcYIq9018Qu
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPAY93787","sid":"ROCET-8239","terminalId":"ROCET-8239","amount":"222.00","type":"D","checksum":"5fb332f5c9e4797f971aee9d6bb8b5423d7cdb8192d54846b03f569a44b628b0"}
+
+encrypted response:-
+KWp+u1JaapjXUsUDtKS05q49j16Ji2tQ2O4oaEJ/5du4koJb7E+3Uvv8+hB5MqNXLjAagb7/gqjZZjSUcz1bFQsAzgiQtuqnrW4VVg1wliJU8z7D96bgDLiKd1PitGV3Ca8Ga+o2Xqmsee0nf4l6HIFm2+svAa/HHs7VCX4P+lQX/RId/i9pd847tzDzqPaFHTlSH2QEkPZV8qzTTykUjqX/MN/acrV//V0vanLKspk1Uta29IULEmowgGiUJJUl9cn7uLkUs3NDytvMgVxD7P2DT2bONJjSL7tKv8P9Z3GfW+a6UWvpyScmsVJqRPxT6bwg+CMcO9Ndv1ularkddNHzfInBG9CP1J4O/B4Wkd2J4ou7e+uUHWjhsNYxEWtQo4gbiMXrbdQQQj7PImAos6RRvKH22jyex+f3YGjQTd8sB9qvxobBfLh7T8tQ4T7kHHifbBsCSjWPlOPep7KWRw/kO4Pgf8B4OmJW+lcPe3IE8CDvYf1+jF2K0J9KVdpyRCHRASZHLoD5W5zmiy4i939t16F7oMfMRx+XnuLe7PFUFgfWNtLVG69MdrCl6YMNi+0ZAPlgVn6rW+ieZ1v56LNYB4DgJEW58tCnKaRBKNX7b5BRRnzqKZIjccGzFLQxPphUJtlu0Y1T3B441PMMVwflj1zVbwlzgfd2GGHYWkakv3TmaddoYg1ig8CBmEHtV3a0VtSFE+GC+eTtVvItzl1erMPqoGv31C/3KsWKEPBO72S1N7eHM6Cnl7rWb0PeSEijk0Inwr8B78H3HQ6EhQ==
+
+
+Decrypted response:-
+{"source":"ROCET8239","sid":"ROCET-8239","terminalId":"ROCET-8239","channel":"api","amount":"222.00","minAmount":null,"remark":null,"extTransactionId":"ROCETPAY93787","reciept":null,"type":"D","qrString":"upi%3A%2F%2Fpay%3Fver%3D01%26mode%3D15%26am%3D222.00%26cu%3DINR%26pa%3Drocetpy.pay%40cosb%26pn%3DRocetpay+Technology+Private+Limited%26mc%3D6012%26tr%3DROCETPAY93787%26mid%3DROCET8239%26msid%3DROCET-8239%26mtid%3DROCET-8239","status":"SUCCESS","param1":null,"param2":null,"param3":null,"errorMsg":"","checksum":"5fb332f5c9e4797f971aee9d6bb8b5423d7cdb8192d54846b03f569a44b628b0"}
+
+callback response encrypted:-
+{
+  "message": "dFwg31nlJQNwrILQXNc/kSS/+JHV4yS3ubbfcvE5Nxx6XhGq1NMJwCgSSqS+9hJ42B99BaxNRcAjf8vfqrADuRlE9HDC2pNGlB30lQbgFX6CqWA8BgMk7ozySdyzFJZCIK/Y0mnpChYQAwLZ0GnVRoXsqD72W2CcdTy3GCwfysltb6isESRIx+o55D/lVbw87NGhza84C+XDSqx+U2IUjYugosprj85gV8B5OirZ/+vM6sYIry7HutJExgzhAiLpt/RPMrMgf24g3UMYvZcUhliYLec89kljtfF/VXWvrOIpKJBrjvJeAMQQG1+TZmYAx6kYbSt2KxbBhlE1ugHRs4INEQwEQIhJfQhZ7BW4IMD7k/5E7o9DRC3kR/6lN7rbD3HVy5fg04qeoE/54ypT/W9Iq0WCgLgWnwz/VV3qsV/Jgv2LnBLdwhL+xe6FOXQjxAnLz35bT5JTpENp+m08LSoTMr+0wuoR02okSIyIvzU="
+}
+
+Decrypted callback response:-
+decrpt response {"customer_vpa":"8180868163@cosb","merchant_vpa":"rocetpy.pay@cosb","checksum":"","txnId":"COB1IZ75NDPC46RBABX3ZH6IBP6BY7DZBGT","amount":"222.00","responseTime":"Tue Nov 21 15:13:10 IST 2023","customerName":"ABC","merchant":["qr.roce"],"remark":"upiPayment","extTransactionId":"ROCETPAY93787","errCode":null,"rrn":"332515110003","status":"DEEMED"}
+
+####faild transaction###########
+
+Raw Request{"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPROCET8238239","sid":"ROCET-8239","terminalId":"ROCET-8239","amount":"500.00","type":"D"}
+
+String is ROCET8239apiROCETPROCET8238239ROCET-8239ROCET-8239500.00D
+
+Checksum is c4fcf708261795615b9e74076664f5fe3c62794033091a2c7f397dc796797ee0
+
+Final string to encrypt is {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPROCET8238239","sid":"ROCET-8239","terminalId":"ROCET-8239","amount":"500.00","type":"D","checksum":"c4fcf708261795615b9e74076664f5fe3c62794033091a2c7f397dc796797ee0"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzG/7e1lfdn3QFDdWlg9+UvlAaIOObuIvyNsbM79VTiebzZ0mXqnS78ROvv1L6gYyu03s/5QcK6rNVrZ1wvkG+4BKEvHAUqZpfFSIyfBlLvMBvSXxyZCO2RwUBfXBfMMiBL/bW4VSCf/frGZPWY3PewroY1ylfXs4RJZbfxJjC6jA/0+1EjGBUWU1QoWjd8LaZrfME0qrNMk6ke2VGTaPuy2fvJO5/6PzUpjC/Rdno0BM0JF+Vr8FDCJj9o04W+1MKmSyvHqqLa2ocBkSO4imRl5
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","extTransactionId":"ROCETPROCET8238239","sid":"ROCET-8239","terminalId":"ROCET-8239","amount":"500.00","type":"D","checksum":"c4fcf708261795615b9e74076664f5fe3c62794033091a2c7f397dc796797ee0"}
+
+encrypted response:-
+KWp+u1JaapjXUsUDtKS05q49j16Ji2tQ2O4oaEJ/5du4koJb7E+3Uvv8+hB5MqNXLjAagb7/gqjZZjSUcz1bFQsAzgiQtuqnrW4VVg1wliLM1qWecd4CcCF0qePObu6WCa8Ga+o2Xqmsee0nf4l6HIFm2+svAa/HHs7VCX4P+lQX/RId/i9pd847tzDzqPaFMWNsiHg/vsSpnO95SnO+xNQViQF55Vi3YakmQ+uVjn5frOOPff/lVdcQv7HJ51lExGiPKXpq7maJO00wQZir6zVX/q81hKkg2kqIICHIabVx/oR954Ma977zpkScLeIZ0dMaBz7m9vGaiPd6qxyOnneVtxV+VcxTlnb5sYMRW/EfTU5nrXtyf0/TM/FL44qPChFs2mv+rokOVX9Wd4ZbwuCI6I/LZ1dsTCgH/S1MvH/X6GiLt1PH0fqx7gcV2IZFZFTljEWGMqTX6PYGCS5ELjKZ6XEVXRU7s0RbbJJC6Mt3EdPiBZu7RFZceRwrfxrO57KV5ZTRdklcNxEN4lpiNXBKjxU57fdihUCt1fbSF8sPAXzNVv6oyjFZnCorlDndcyRwiQXL4sd4nO33YwilaV+fAtMAZObzcamHVMigkqS0T510eekr7WGocHqNmr49OZso09s82mScto7Vs9pLDoe2nkvZt3IGC58chUxXBrM9jr9MhKcocbAvpL5LyvAyN1PG+s1liOYnZHWkC9fzCy8ttWYEyMTBEi9E+8M4cI4Vg15DoMuM+J78c7BLsMrA3I92z2dP90KPM9AObsEEgLOdT/0NzurMlxgir3TXxC4=
+
+Decrypted response:-
+{"source":"ROCET8239","sid":"ROCET-8239","terminalId":"ROCET-8239","channel":"api","amount":"500.00","minAmount":null,"remark":null,"extTransactionId":"ROCETPROCET8238239","reciept":null,"type":"D","qrString":"upi%3A%2F%2Fpay%3Fver%3D01%26mode%3D15%26am%3D500.00%26cu%3DINR%26pa%3Drocetpy.pay%40cosb%26pn%3DRocetpay+Technology+Private+Limited%26mc%3D6012%26tr%3DROCETPROCET8238239%26mid%3DROCET8239%26msid%3DROCET-8239%26mtid%3DROCET-8239","status":"SUCCESS","param1":null,"param2":null,"param3":null,"errorMsg":"","checksum":"c4fcf708261795615b9e74076664f5fe3c62794033091a2c7f397dc796797ee0"}
+
+
+
+
+callback response encrypted:-
+
+{
+  "message": "wF0fxP4YHViQegiZbrGnce0GnmVc+68HEz+DCcSg7mBkt49v1l52zce5IbamP0hvk1zCG4QVhc5sdjkmp871HBurgPcb3XBlhkS/x7gXMsPu+h552wZuE1MK8MGyAA+UetorO67ZToQ5IOE9a3MVTMM//nddzbh+nSYR+6ZKusoGHzBTbKmyRuT0DcMjWk6SABkAhuoCtZea6QuwtfT0ezqNcjDikFcZDYaxREW7yBS7cd77WlM1n8UMKMkTM+20kNz6lpUCbgE+SkO9g5eTmYcI8XMSugeHH5H9yTrwWmxGUK4zuAKcpv8X8YPji59tErj7k6mMty/VYfFwbtr6YA0aAz+N/D+Dk23T7xb07wlduNiJk8dnRE0h5JhKUWVRg5mNUjSdzDLvVI3MzXaQzJBns29tRd9qxWL7+wNklVUCKvEuSjLMYJhVAaQ/gesW9CdICIl6FLlu2HtBXagxXoQNjeyWGK6XuPcqdgxjcqxuvQME+JR1R/oU+7UDy3ehivSvuLgNa4zWp7qyxLDdqQ=="
+}
+
+
+Decrypted callback response:-
+decrpt response {"customer_vpa":"9730024610@cosb","merchant_vpa":"rocetpy.pay@cosb","checksum":"","txnId":"COBQZW7KKSLONCH5EIOE5MWW2OX38CSUMBF","amount":"500.00","responseTime":"Tue Nov 21 15:34:22 IST 2023","customerName":"PINGALE SANJAY JAGANNATH","merchant":["qr.roce"],"remark":"upiPayment","extTransactionId":"ROCETPROCET8238239","errCode":"U30","rrn":"332515340006","status":"FAILURE"}
+
+
+
+##########################-Status-Api-#####################################
+https://merchantuat.timepayonline.com/evok/qr/v1/qrStatus
+
+Raw Request{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"ROCETPROCET8238239"}
+
+String is ROCET8239apiROCET-8239ROCETPROCET8238239
+
+Checksum is 6f1ee2d2f66e9c9c1a0d12b97681c03f1d2011692ca34b7590ebe36a67659916
+
+Final string to encrypt is {"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"ROCETPROCET8238239","checksum":"6f1ee2d2f66e9c9c1a0d12b97681c03f1d2011692ca34b7590ebe36a67659916"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M1AvnanfGDK9j/HK0LcZjJrLz9pEUVz5tMbhEw1ZrUbqSKFq4ngKBxrc+otmsmBXbgTCCET9DMj23FhO1J1k2XzC8UB+U/lXq03/mxvkpVbQ3MTOpdmM0khRKz3OA3pdt0+lMjw3W22TGWdCaIAja4kk/f7AEz86vJUvrhDEPesA
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"ROCETPROCET8238239","checksum":"6f1ee2d2f66e9c9c1a0d12b97681c03f1d2011692ca34b7590ebe36a67659916"}
+
+
+encrypted response -
+KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M1AvnanfGDK9j/HK0LcZjJrLz9pEUVz5tMbhEw1ZrUbqSKFq4ngKBxrc+otmsmBXbijq/1Lx7/u4RA6Y8W48cI2sVUAQRiFZysuuWYCfmUD3LGy3/MUsY7ijiK+je3xntdZbdw8PtABPGfBdFFEFxKM2Nj8JGFQ87+uL5voPBYRF9r4KVT3bFYW4S5n80FKzhyTWdO4LtLr9Wd41NGa2DVWbaY2SYPZWP+ktDP0n/iMRssjcvvIpnUkk/StcZqsaNDWUmGJrTwMqsxjrD6+hPNcN3nkDyjM5LqcLURWt9tpIILb1/O4ILNE7N88R0WKQuzPdGP4u0OZdraLKIXPfxm7oPFL11y50+qVE/RT99MK2zfjMSMgcy1rnK5LT/roPZZgn3XVMN9924ruyScrsswCQynbbYBpC87VciXzPZRUSTd7TE8JDmykg7HtH5Dz27lNaApFJVnZF2Y2T4fVU+mWeTWOjPrBYrQ5HAbWpWubc9/cigQO7mLesbGTW6olgi9q3lK7J1HQSNdPASMuBdL1IpwD5pFN5NYLIWLgcxzFWPs+KDeenHlhESQWwdCastVi55Bnbdm9iQECIKrgw8mUS8FWplJJ4W42KIdPjhZBoaj7v7lgE+xb6Br+kJMg4NgEq25jTr4EBAC57k4Untw6znU/9Dc7qzJcYIq9018Qu
+
+Decrypted it-
+{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"ROCETPROCET8238239","checksum":"88e6197fdc6c0881c842309447ce3af57de8e1eda8fcd40094d8a81c812c16c0","status":"SUCCESS","txnType":"TXNSTATUS","data":[{"customerName":"PINGALE SANJAY JAGANNATH","respCode":"U30","respMessge":"FAILURE","upiTxnId":"COBQZW7KKSLONCH5EIOE5MWW2OX38CSUMBF","txnTime":"2023-11-21T15:34:21.718+05:30","amount":"500.00","upiId":"9730024610@cosb","extTransactionId":"ROCETPROCET8238239","custRefNo":"332515340006","remark":"upiPayment"}],"transactionList":[]}
+
+
+
+##########################-Status by RRN-Api-#####################################
+https://merchantuat.timepayonline.com/evok/qr/v1/qrStatusRRN
+
+Raw Request{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"332515110003"}
+
+String is ROCET8239apiROCET-8239332515110003
+
+Checksum is bb08039005c67a8e4c0a10f17d5b01abb44e48c86ceb7901a0b6d5b8618b7180
+
+Final string to encrypt is {"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"332515110003","checksum":"bb08039005c67a8e4c0a10f17d5b01abb44e48c86ceb7901a0b6d5b8618b7180"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M1AvnanfGDK9j/HK0LcZjJr1mxltZkkdzM9mjUk52T/PRNEl9umRdXw8sQKXALEJzZIAocWPdTKnJWb7yyJe7df5bpUxMVnjHATwe1reJeWK6ELwMX8giP/WQCc2PZAPA1S+up8hxXgjBCWVdbA1pxqgHPtKLNbin1TCe+vRpFwC
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"332515110003","checksum":"bb08039005c67a8e4c0a10f17d5b01abb44e48c86ceb7901a0b6d5b8618b7180"}
+
+Encrypted response-
+KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M1AvnanfGDK9j/HK0LcZjJr1mxltZkkdzM9mjUk52T/PYro40+hSasUISy6RWCpRnW6Y02zfbZAOu/RcYpBTxspT4nll2/616/lhX/6Lva9oYxC3Zonep6DY7c8CU04D9Soo70nYn/XdzhMsdzCST/3QKpyeWkmBH+DSlrQg53qNWZJF/s9fsDUulcO/9Kavt34tVaPJfCp7kyA8vWFhn9d7bmpRArRBacjT1tMJJrgTrdH0m56RukVd4i7+51HZe3uSv/Lc+iBC7EgoefqkNNcFYbYqWy4mR+fIeKt/rodblwS/ZLqsiiwObStOfk66RPWzMWIXPq8HUjeSFghckrj53qjr5cICjiVzzQsLauFoZCUN/TlBJZYAXuICP+ccKNJtpcTzbB6bTiYQ1cYqTCoMSrneKMGs1vDJ/c9ghsa/uuiTu73ZjaN4CS58wd1K6eqXrS8k5/Zys8H+Uq0Iq3TL7doLEex0t1Cy78Rxybjf2TOkq7g0C9rdk9tKfVDzD/hQNbmPBndBBdVfbG6LFDO4f9VWLEJyhw0vbKufmNYSPEVOMd99BuWfRCOA5jRVp5vcHybvIuRJbfbDOytAWKTR/2QZGAp5JRlP+IebIAG3+V/XLLrMQ6PlyoEhPNtl+GZNKpMNni6lLwZKQAWaWMc=
+
+Decrypted it -
+{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","extTransactionId":"332515110003","checksum":"f0d5482bde8232d60d0f9d23d1dde7fc1e240734c6a23cbe13f34448535239cf","status":"SUCCESS","txnType":"TXNSTATUS","data":[{"customerName":"ABC","respCode":" ","respMessge":"DEEMED","upiTxnId":"COB1IZ75NDPC46RBABX3ZH6IBP6BY7DZBGT","txnTime":"2023-11-21T15:11:58.658+05:30","amount":"222.00","upiId":"8180868163@cosb","extTransactionId":"ROCETPAY93787","custRefNo":"332515110003","remark":"upiPayment","payeeVpa":"rocetpy.pay@cosb"}],"transactionList":[]}
+
+
+##########################-QrReport-Api-#####################################
+https://merchantuat.timepayonline.com/evok/qr/v1/qrreport
+
+Raw Request{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","startDate":"2023-11-08 00:00:00","endDate":"2023-11-21 23:24:00","pageSize":"20","pageNo":"0","sid":"ROCET-8239"}
+
+String is ROCET8239apiROCET-82392023-11-08 00:00:002023-11-21 23:24:00020
+
+Checksum is 762f0f124446d5afb6acafa1fbfc27d70e4648f59c786bcdc4a4fb250de069a1
+
+Final string to encrypt is {"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","startDate":"2023-11-08 00:00:00","endDate":"2023-11-21 23:24:00","pageSize":"20","pageNo":"0","sid":"ROCET-8239","checksum":"762f0f124446d5afb6acafa1fbfc27d70e4648f59c786bcdc4a4fb250de069a1"}
+
+Final encrypted request KWp+u1JaapjXUsUDtKS05iFRJm0mDsU8MjpycLmsGzFnu7C9RvgZlKbwZCEH/PI7+YdIjW5OUQS3LpVW8bB8M2NiM7fguUNNK/OsRIS5n42+54kJBPLKy9E9Fnv0mmMBVncUV0/ygBZnumRiNBY+2zlGGblZRziPcFxLfkphLqgiUi+Eq5ucR7ZyULnuOR9aSdMv8nlQYdz7uBGXRzetnmn9CRyqs4WOnQkVFu71WxLnhcxlzf6++tRt9EN+AraJ//tkD+VuJsTLlKVi1h8IHomGf/0PStH3fc6nN6/kPLqK3hkva4sbi9jwQovErp9gDgnd3De0Iq5sH23z2Z+8EKAc+0os1uKfVMJ769GkXAI=
+
+Decrypted request to cross verify {"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","startDate":"2023-11-08 00:00:00","endDate":"2023-11-21 23:24:00","pageSize":"20","pageNo":"0","sid":"ROCET-8239","checksum":"762f0f124446d5afb6acafa1fbfc27d70e4648f59c786bcdc4a4fb250de069a1"}
+
+Encryted response-
+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
+
+
+
+Decrypt it -
+{"source":"ROCET8239","channel":"api","terminalId":"ROCET-8239","checksum":"ba35c489fc9450e3158db611af7412e635100efdb1f18551036608186f3284d1","status":"SUCCESS","txnType":"TXNREPORT","startDate":"2023-11-08 00:00:00","endDate":"2023-11-21 23:24:00","sid":"ROCET-8239","pageSize":"20","pageNo":"0","data":[{"customerName":"PINGALE SANJAY JAGANNATH","respCode":"U30","respMessge":"FAILURE","upiTxnId":"COBQZW7KKSLONCH5EIOE5MWW2OX38CSUMBF","txnTime":"2023-11-21T15:34:21.718+05:30","amount":"500.00","upiId":"9730024610@cosb","extTransactionId":"ROCETPROCET8238239","custRefNo":"332515340006","remark":"upiPayment"},{"customerName":"ABC","respMessge":"SUCCESS","upiTxnId":"COBEGD9XWZBHL96QYCH98LMY9WTL91XAQWC","txnTime":"2023-11-21T15:21:53.985+05:30","amount":"500.00","upiId":"8180868163@cosb","extTransactionId":"ROCETPROCET8239","custRefNo":"332515210005","remark":"upiPayment"},{"customerName":"ABC","respMessge":"SUCCESS","upiTxnId":"COBM0NFA1YF7W8S8F35KNYOQ5FDD310L4O0","txnTime":"2023-11-21T15:13:40.732+05:30","amount":"222.00","upiId":"8180868163@cosb","extTransactionId":"ROCETPAY002","custRefNo":"332515130004","remark":"upiPayment"},{"customerName":"ABC","respMessge":"DEEMED","upiTxnId":"COB1IZ75NDPC46RBABX3ZH6IBP6BY7DZBGT","txnTime":"2023-11-21T15:11:58.658+05:30","amount":"222.00","upiId":"8180868163@cosb","extTransactionId":"ROCETPAY93787","custRefNo":"332515110003","remark":"upiPayment"},{"customerName":"ABC","respMessge":"SUCCESS","upiTxnId":"COB9964187F1AE54B9BB2E3567B6915F7AA","txnTime":"2023-11-21T14:43:35.779+05:30","amount":"105.00","upiId":"8180868163@cosb","extTransactionId":"ROCETPAY8239242","custRefNo":"332514430001","remark":"Collect Payment"}],"transactionList":[]}
+
